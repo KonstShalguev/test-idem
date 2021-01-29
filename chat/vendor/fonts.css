@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style:  bold;
+  font-weight: 600;
+  src: url("./fonts/ProximaNova-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/NotoSans-Regular.woff") format("woff");
+}
+
