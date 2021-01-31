@@ -23,7 +23,9 @@ function sendMessage(text) {
 }
 
 chatButton.addEventListener('click', function () {
-	messageArea.appendChild(sendMessage(inputField.value));
-	messageArea.scrollTop = messageArea.scrollHeight;
-	inputField.value = '';
+	if(inputField.value !== ''){
+		messageArea.appendChild(sendMessage(inputField.value));
+		messageArea.scrollTop = messageArea.scrollHeight;
+		inputField.value = '';
+	}
 });
