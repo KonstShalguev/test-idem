@@ -110,8 +110,8 @@
 	color: #000000;
 	position: absolute;
 	max-width: 212px;
-	bottom: 5px;
-	left: 10px;
+	bottom: 0px;
+	left: 15px;
 }
 
 .box-subtitle_theme_light {
@@ -231,6 +231,10 @@
 	background-position: center center;
 	cursor: pointer;
 	width: 100%;
+}
+
+.squares__box-3_bg-img:hover > h2{
+	display: none;
 }
 
 .squares__box_theme_light-green {
