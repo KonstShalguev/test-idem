@@ -110,7 +110,7 @@
 	position: relative;
 }
 
-.message__border-text_status_reseived::after {
+.message__border-text_status_reseived:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -120,7 +120,7 @@
 	border-top: 8px solid#F1F3F5;
 }
 
-.message__border-text_status_sent::after {
+.message__border-text_status_sent:after {
 	content: "";
 	display: block;
 	position: absolute;
