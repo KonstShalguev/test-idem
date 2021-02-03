@@ -1,0 +1,13 @@
+@import url(./__message/chat__message.css);
+@import url(./_status/message_status.css);
+
+@import url(./__border-text/message__border-text.css);
+@import url(./__avatar/message__avatar.css);
+@import url(./__text/message__text.css);
+
+.message {
+	display: flex;
+}
+
+
+

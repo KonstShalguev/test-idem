@@ -1,0 +1,12 @@
+.box-subtitle {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	position: absolute;
+	max-width: 212px;
+	bottom: 0px;
+	left: 15px;
+}

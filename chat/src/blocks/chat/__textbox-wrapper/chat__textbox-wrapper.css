@@ -1,0 +1,6 @@
+.chat__textbox-wrapper {
+	height: 240px;
+	box-sizing: border-box;
+	padding: 20px 20px 30px;
+	border-top: 1px solid #DBDBDB;
+}

@@ -1,0 +1,12 @@
+@import url(./__chat/page__chat.css);
+@import url(./__messages-wrapper/chat__messages-wrapper.css);
+@import url(./__textbox-wrapper/chat__textbox-wrapper.css);
+@import url(./__input-field/chat__input-field.css);
+@import url(./__button/chat__button.css);
+@import url(./__date/chat__date.css);
+@import url(./__date-wrapper/chat__date-wrapper.css);
+@import url(./__date-line/chat__date-line.css);
+
+.chat {
+	box-sizing: border-box;
+}

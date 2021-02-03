@@ -1,0 +1,19 @@
+.chat__button {
+	width: 144px;
+	height: 41px;
+	margin-top: 20px;
+	background: #0F54B9;
+	box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+	border-radius: 21px;
+	border: none;
+	font-family: 'Proxima Nova';
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.chat__button:hover {
+	background: #115dd0;
+	cursor: pointer;
+}

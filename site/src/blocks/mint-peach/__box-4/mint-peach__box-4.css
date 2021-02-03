@@ -1,0 +1,22 @@
+.mint-peach__box-4 {
+	position: relative;
+	background: #FFAA87;
+}
+
+.mint-peach__box-4 {
+	-ms-grid-column: 3;
+	-ms-grid-row: 3;
+}
+
+@media screen and (max-width: 479px) {
+	.mint-peach__box-4 {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	.mint-peach__box-4 {
+		-ms-grid-column: 1;
+		-ms-grid-row: 3;
+	}
+}

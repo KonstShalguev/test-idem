@@ -1,0 +1,16 @@
+.light-gray__box-3 {
+	position: relative;
+	background: #90BCE8;
+}
+
+.light-gray__box-3 {
+	-ms-grid-column: 5;
+	-ms-grid-row: 1;
+}
+
+@media screen and (max-width: 479px) {
+	.light-gray__box-3 {
+		-ms-grid-column: 1;
+		-ms-grid-row: 5;
+	}
+}

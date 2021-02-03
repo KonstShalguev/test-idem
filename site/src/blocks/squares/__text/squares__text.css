@@ -1,0 +1,21 @@
+.squares__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 85%;
+	margin: 30px auto 0;
+}
+
+/* до 520px */
+@media screen and (max-width: 520px) {
+	.squares__text {
+		position: absolute;
+		left: 8%;
+		top: 0px;
+		margin-top: 20px;
+	}
+}

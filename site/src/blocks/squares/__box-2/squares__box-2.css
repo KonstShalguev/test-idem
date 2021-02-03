@@ -1,0 +1,14 @@
+.squares__box-2 {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	position: relative;
+	padding-bottom: 100%;
+	background: #A2A9B7;
+}
+
+.squares__box-2 {
+	-ms-grid-column: 5;
+	-ms-grid-row: 1;
+}

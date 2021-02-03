@@ -1,0 +1,16 @@
+.squares__box-3_bg-img {
+	background-image: url(../../../../images/box-bg.jpg);
+	background-size: cover;
+}
+
+.squares__box-3_bg-img:hover {
+	background-image: url(../../../../images/bg-blur.svg);
+	background-size: 110%;
+	background-position: center center;
+	cursor: pointer;
+	width: 100%;
+}
+
+.squares__box-3_bg-img:hover > h2 {
+	display: none;
+}

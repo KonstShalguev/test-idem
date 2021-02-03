@@ -1,0 +1,12 @@
+@import url(./__footer/page__footer.css);
+@import url(./__title/footer__title.css);
+
+.footer {
+	display: flex;
+}
+
+@media screen and (max-width: 479px) {
+	.footer {
+		order: 4;
+	}
+}

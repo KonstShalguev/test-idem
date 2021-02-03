@@ -1,0 +1,11 @@
+.squares__box-2_position_reverse {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.squares__box-2_position_reverse {
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+}

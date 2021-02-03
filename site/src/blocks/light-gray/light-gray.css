@@ -1,0 +1,35 @@
+@import url(./__light-gray/page__light-gray.css);
+@import url(./__box-1/light-gray__box-1.css);
+@import url(./__box-2/light-gray__box-2.css);
+@import url(./__box-3/light-gray__box-3.css);
+@import url(./__box-4/light-gray__box-4.css);
+@import url(./__box-5/light-gray__box-5.css);
+
+.light-gray {
+	display: grid;
+	grid-template-rows: repeat(2, 155px);
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.light-gray {
+	display: -ms-grid;
+	-ms-grid-rows: 150px .8em 150px;
+	-ms-grid-columns: 1fr .8em 1fr .8em 1fr;
+	width: 97%;
+}
+
+@media screen and (max-width: 479px) {
+	.light-gray {
+		grid-template-rows: repeat(3, 155px);
+		grid-template-columns: repeat(2, 1fr);
+		margin: 0 0 10px;
+		width: 100%;
+		order: 1;
+	}
+	.light-gray {
+		display: -ms-grid;
+		-ms-grid-rows: 155px .8em 155px .8em 155px;
+		-ms-grid-columns: 1fr .8em 1fr;
+	}
+}

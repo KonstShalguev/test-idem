@@ -1,0 +1,6 @@
+@import url(./_status/message__avatar_status.css);
+
+.message__avatar {
+	width: 47px;
+	height: 47px;
+}

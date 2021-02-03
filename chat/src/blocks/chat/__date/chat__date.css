@@ -1,0 +1,13 @@
+.chat__date {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	display: block;
+	max-width: 140px;
+	min-width: 140px;
+	margin: 0 auto;
+	text-align: center;
+}

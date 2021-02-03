@@ -1,0 +1,9 @@
+.message__border-text_status_sent:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: -8px;
+	top: 5px;
+	border: 8px solid transparent;
+	border-top: 8px solid#F1F3F5;
+}

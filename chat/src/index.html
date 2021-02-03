@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Чат</title>
+</head>
+
+<body>
+	<div class="page">
+		<section class="chat page__chat">
+			<div class="chat__messages-wrapper">
+
+				<div class="message chat__message message_status_received">
+					<img src="<%=require('./images/avatar.png')%>" class="message__avatar message__avatar_status_reseived"
+						alt="аватар пользователя">
+					<div class="message__border-text message__border-text_status_reseived">
+						<p class="message__text">
+							Это означает, что в Вашем доме, офисе, кабинете, мастерской
+							хранятся ценности бóльшие, чем просто деньги или
+							драгоценности, - культурные ценности. Произведения искусства,
+							антиквариат, иные предметы коллекционирования – все это
+							имущество, безусловно высокая стоимость которого.
+						</p>
+					</div>
+				</div>
+
+				<div class="message chat__message message_status_sent">
+					<img src="<%=require('./images/avatar.png')%>" class="message__avatar message__avatar_status_sent" alt="аватар пользователя">
+					<div class="message__border-text message__border-text_status_sent">
+						<p class="message__text">
+							Это означает,
+						</p>
+					</div>
+				</div>
+
+				<div class="message chat__message message_status_received">
+					<img src="<%=require('./images/avatar.png')%>" class="message__avatar message__avatar_status_reseived"
+						alt="аватар пользователя">
+					<div class="message__border-text message__border-text_status_reseived">
+						<p class="message__text">
+							доме, офисе, кабинете, мастерской
+						</p>
+					</div>
+				</div>
+
+				<div class="chat__date-wrapper">
+					<div class="chat__date-line"></div>
+					<p class="chat__date">
+						21 октября 2017
+					</p>
+					<div class="chat__date-line"></div>
+				</div>
+
+				<div class="message chat__message message_status_sent">
+					<img src="<%=require('./images/avatar.png')%>" class="message__avatar message__avatar_status_sent" alt="аватар пользователя">
+					<div class="message__border-text message__border-text_status_sent">
+						<p class="message__text">
+							Это означает,
+						</p>
+					</div>
+				</div>
+
+				<div class="message chat__message message_status_receive ">
+					<img src="<%=require('./images/avatar.png')%>" class="message__avatar message__avatar_status_reseived"
+						alt="аватар пользователя">
+					<div class="message__border-text message__border-text_status_reseived">
+						<p class="message__text">
+							доме, офисе, кабинете, мастерской
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="chat__textbox-wrapper">
+				<textarea class="chat__input-field"></textarea>
+				<button class="chat__button">Отправить</button>
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.page__chat {
+	max-width: 651px;
+	margin: 30px auto 0;
+	box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.15);
+	background-image: url(../../../images/bg-img.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position-y: -5px;
+	background-position-x: -15px;
+}

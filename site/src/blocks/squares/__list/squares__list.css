@@ -1,0 +1,6 @@
+.squares__list {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 15px;
+	justify-content: space-between;
+}

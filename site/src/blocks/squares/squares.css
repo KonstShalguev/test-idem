@@ -1,0 +1,40 @@
+@import url(./__squares/page__squares.css);
+@import url(./__list/squares__list.css);
+@import url(./__list-item/squares__list-item.css);
+@import url(./__delimiter/squares__delimiter.css);
+@import url(./__box-1/squares__box-1.css);
+@import url(./__box-2/squares__box-2.css);
+@import url(./__box-3/squares__box-3.css);
+@import url(./__text/squares__text.css);
+
+@import url(./__box-1/_position_reverse/squares__box-1_position_reverse.css);
+@import url(./__box-2/_position_reverse/squares__box-2_position_reverse.css);
+@import url(./__box-3/_position_reverse/squares__box-3_position_reverse.css);
+@import url(./_theme_light-green/squares__box_theme_light-green.css);
+@import url(./__box-3/_bg-img/squares__box-3_bg-img.css);
+
+.squares {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.squares {
+	display: -ms-grid;
+	-ms-grid-rows: 241px .8em 241px;
+	-ms-grid-columns: 1fr .8em 1fr .8em 1fr;
+}
+
+@media screen and (max-width: 479px) {
+	.squares {
+		width: 100%;
+		order: 2;
+	}
+	.squares {
+		-ms-grid-rows: 102.25px .8em 102.25px;
+	}
+	.squares_display_none {
+		display: none;
+	}
+}

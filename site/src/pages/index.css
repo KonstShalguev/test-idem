@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/squares/squares.css);
+@import url(../blocks/box-subtitle/box-subtitle.css);
+@import url(../blocks/box-subtitle/_theme_light/box-subtitle_theme_light.css);
+@import url(../blocks/light-gray/light-gray.css);
+@import url(../blocks/mint-peach/mint-peach.css);
+@import url(../blocks/footer/footer.css);

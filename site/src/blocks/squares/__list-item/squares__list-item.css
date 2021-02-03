@@ -1,0 +1,11 @@
+@import url(./_alignment_right/squares__list-item_alignment_right.css);
+
+.squares__list-item {
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000000;
+	margin: 0 15px;
+}
